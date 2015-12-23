@@ -1,0 +1,108 @@
+ /* Dieser Inhalt bestimmt den ganzen Aufbau der Seite*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ /* Da wird alles definiert was sich im Body befindet.*/
+body {
+	/* 	Background steht f�r Hintergrund. Da wird definiert welche Farbe der Hintergrund der Seite hat.*/
+	background: #000000;
+	/* 	Font-size definiert welche Schriftgr�sse sich im Body befindet. 13px steht f�r 13 Pixel. */
+	font-size: 13px;
+	/* 	Color steht f�r die Schriftfarbe. Diese Schriftfarbe kann man �ndern. Woher weiss ich Welcher Farbcode zu welcher Farbe geh�rt?
+		Das kannst du auf der Seite http://www.colorpicker.com/ nachschauen*/
+	color: #FFFFFF;
+}
+
+ /* Da wird nun der Inhalt von "homepage" definiert.*/
+#homepage {
+	/*	Das margin wird ben�tigt um um die "R�nder" der Seite zu definieren. 0 steht f�r "0 Pixel von jedem Rand abstand halten" und 
+		auto in diesem Fall f�r "homepage direkt in die Mitte setzten".*/
+	margin: 0 auto;
+	/* 	Width definiert die Breite von "homepage" */
+	width: 730px;
+	/* 	Height definiert die H�he von "homepage" */
+	height: 150px;
+}
+
+#kopf {
+	width: 730px;
+	height: 120px;
+	margin: 0 auto;
+	/* 	Background wird nun ben�tigt um die Hintergrundfarbe von dem Header/Kopf zu bestimmen */
+	background: #FFFFFF;
+}
+
+#navi {
+	background: #000000;
+	/*	Float sagt wo sich die "navi" auf der Webseite befinden soll. Left = Links. Da wird bestimmt, dass sich die Navi (Navigation) auf 
+		der Linkenseite der Webseite befinden soll. */
+	float: left;
+	height: 250px;
+	width: 130px;
+	/*	Mit "text-align" definiert man wo sich der Text auf der Seite befinden soll. In diesem Fall ist es "center", also direkt in der Mitte. */
+	text-align: center;
+}
+
+#navi a {
+
+	font-size: 15px;
+	/* 	Mit "line-height" wird definiert welcher Abstand die Schrift im Navi haben soll. */
+	line-height: 40px;
+	/*	Mit "font-family" wird bestimmt welche Schriftart die Schrift in der Navi hat. */
+	font-family: Old English Text MT;
+	color: #FFFFFF;
+}
+ 
+#navi .active
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#inhalt {
+	height: 250px;
+	width: 600px;
+	background: #000000;
+	float:right;
+}
+
+#inhalt h1{
+	margin: 0;
+	text-align: center;
+	/*	Mit "letter-spacing" wird definiert, welcher Abstand zwischen den Buchstaben sich befinden. */
+	letter-spacing: .25em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#inhalt p {
+	margin: 10px;
+	font-family: Arial Black;
+	font-size: 17px;
+	/* "font-weight" bestimmt die Breite der Schrift */
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#inhalt a {
+	margin: 10px;
+	color: #FFFF00;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#fuss {
+	text-align: center;
+	width: 600px;
+	float: right;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#inhalt img {
+	margin: 12px;
+}
