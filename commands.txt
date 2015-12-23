@@ -1,0 +1,16 @@
+# Projekt runterladen
+git clone https://github.com/JoelFeller/JoelFeller.github.io.git
+
+
+# Status anschauen
+git status
+
+
+#Dateien hinzufügen
+git add .
+
+#Dateien commiten
+git commit -m "Naricht"
+
+#dateien hochladen
+git push
